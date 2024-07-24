@@ -45,7 +45,7 @@ const config: StorybookConfig = {
 
    
    if (configType === 'PRODUCTION') {
-      config.base = '/design-system/'
+      config.base = '/05-design-system/'
       
     }
    
