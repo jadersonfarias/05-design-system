@@ -7,8 +7,9 @@
     "scripts": {
      
       "deploy-storybook": "storybook-to-ghpages",
-      "build": "storybook build",
-      "dev1": "storybook dev -p 6006"
+      "build": "storybook build && touch ./storybook-static/.nojekyll",
+      "dev": "storybook dev -p 6006",
+      "build-vite": "tsc && vite build"
     },
     "dependencies": {
       "@ignite-ui/eslint-config": "*",
