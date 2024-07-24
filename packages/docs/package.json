@@ -7,7 +7,7 @@
    
     "deploy-storybook": "storybook-to-ghpages",
     "build": "storybook build",
-    "dev": "storybook dev -p 6006"
+    "dev1": "storybook dev -p 6006"
   },
   "dependencies": {
     "@ignite-ui/eslint-config": "*",
