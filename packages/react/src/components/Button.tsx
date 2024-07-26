@@ -24,11 +24,11 @@ export const Button = styled('button', {
   },
 
   '&:disabled': {
-    boxShadow: '0 0 0 2px $colors$gray100'
+    cursor: 'not-allowed',
   },
 
   '&:focus': {
-    cursor: 'not-allowed',
+    boxShadow: '0 0 0 2px $colors$gray100',
   },
 
   variants: {
