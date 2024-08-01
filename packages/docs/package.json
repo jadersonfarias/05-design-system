@@ -15,6 +15,7 @@
     "@jf-ignite-ui/tokens": "*",
     "@storybook/addon-a11y": "^8.1.5",
     "@storybook/addon-docs": "^8.1.5",
+    "@storybook/client-api": "^7.6.17",
     "git-up": "^7.0.0",
     "git-url-parse": "^14.0.0",
     "glob": "^9.2.0",
